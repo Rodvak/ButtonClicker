@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+    .navBar{
+        width: 80%;
+        margin: 0 auto;
+        background-color: grey;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+  .navBar button{
+      padding: 10px 28px;
+      background-color: rgb(19, 99, 184);
+      color: whitesmoke;
+  }
+  /*  */
+  .mainContainer{
+      display: flex;
+      width: 84%;
+      margin: 0 auto;
+  }
+  .leftColumn{
+      flex: 2; 
+      width: 600px;
+      margin: 0;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+  }
+  /*  */
+  .leftTop{
+     border: 5px solid black;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+  }
+  .leftLeftTop h1, .leftLeftTop h5, .leftLeftTop h6, .leftLeftTop button{
+      margin: 10px;
+      padding: 10px;
+  }
+  .leftLeftTop h5{
+      font-style:italic;
+  }
+  .leftLeftTop h6 span{
+    font-style:italic;
+}
+  .leftLeftTop button{
+      justify-content: center;
+      padding: 3px 10px;
+      background-color: rgb(255, 204, 0);
+  }
+  .leftLeftRight h5 span{
+    text-decoration: underline;
+    color: dodgerblue;
+    justify-content: flex-end;
+  }
+  .leftLeftTop h1, .leftLeftTop h5, .leftLeftTop h6, .leftLeftTop button{
+      margin: 10px;
+      padding: 10px;
+  }
+  .leftLeftTop h5{
+      font-style:italic;
+  }
+  .leftLeftTop h6 span{
+    font-style:italic;
+}
+  .leftLeftTop button{
+      justify-content: center;
+      padding: 3px 10px;
+      background-color: rgb(255, 204, 0);
+  }
+  .leftLeftRight h5 span{
+    text-decoration: underline;
+    color: dodgerblue;
+    justify-content: flex-end;
+  }
+  /*  */
+.leftBelow{
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.leftLeftBelow h1, .leftLeftBelow h5, .leftLeftBelow h6, .leftLeftBelow button{
+    margin: 10px;
+    padding: 10px;
+}
+.leftLeftBelow h5{
+    font-style:italic;
+}
+.leftLeftBelow h6 span{
+  font-style:italic;
+}
+.leftLeftBelow button{
+    justify-content: center;
+    padding: 3px 10px;
+    background-color: rgb(255, 204, 0);
+}
+.leftLeftBelowRight h5 span{
+  text-decoration: underline;
+  color: dodgerblue;
+  justify-content: flex-end;
+}
+/* RIGHT SIDE */
+.rightColumn{
+    flex: 1;  
+    height: auto;
+    width: auto;
+}
+.rightColumnContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid black;
+    margin: 0px;
+    margin-left: 30px;
+}
+.rightColumnContent h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.rightColumnContent button{
+    padding: 5px 45px;
+    margin-bottom: 20px;
+    background-color: rgb(97, 159, 80);
+}
+
